@@ -1,0 +1,1 @@
+ C:\\Users\\Lucky\\monolith_chat\\build\\2abad791cde30cb525ca760ae15f917e\\dart_build_result.json:  C:\\Users\\Lucky\\monolith_chat\\.dart_tool\\package_config.json C:\\Users\\Lucky\\monolith_chat\\pubspec.yaml C:\\src\\flutter_windows_3.38.7-stable\\flutter\\bin\\cache\\dart-sdk\\version c:\\users\\lucky\\monolith_chat\\.dart_tool\\package_config.json
