@@ -1,0 +1,53 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gr.dart"
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    # Ошибки
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_fields
+    - prefer_final_locals
+    - unnecessary_this
+    - use_key_in_widget_constructors
+    
+    # Предупреждения
+    - always_put_required_named_parameters_first
+    - always_use_package_imports
+    - annotate_overrides
+    - avoid_dynamic_calls
+    - avoid_function_literals_in_foreach_calls
+    - avoid_returning_this
+    - camel_case_types
+    - constant_identifier_names
+    - empty_constructor_bodies
+    - library_names
+    - library_prefixes
+    - no_duplicate_case_values
+    - non_constant_identifier_names
+    - prefer_conditional_assignment
+    - prefer_const_constructors_in_immutables
+    - prefer_contains
+    - prefer_equal_for_default_values
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_null_aware_operators
+    - sized_box_for_whitespace
+    - sort_child_properties_last
+    - type_init_formals
+    - unnecessary_const
+    - unnecessary_new
+    - unnecessary_null_checks
+    - use_full_hex_values_for_flutter_colors
+    - use_rethrow_when_possible
+    - use_string_buffers
