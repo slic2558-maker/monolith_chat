@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch theme -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- Normal theme -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+    
+    <!-- WhatsApp Colors -->
+    <color name="primary">#075E54</color>
+    <color name="primary_dark">#054D44</color>
+    <color name="primary_light">#128C7E</color>
+    <color name="accent">#25D366</color>
+    <color name="background">#ECE5DD</color>
+    <color name="message_sent">#DCF8C6</color>
+    <color name="message_received">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#667781</color>
+    <color name="divider">#E0E0E0</color>
+</resources>

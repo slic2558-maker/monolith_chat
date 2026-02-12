@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Основные пути -->
+    <external-path name="external_storage_root" path="." />
+    <external-files-path name="external_files_root" path="." />
+    <external-cache-path name="external_cache_root" path="." />
+    <files-path name="internal_files" path="." />
+    <cache-path name="internal_cache" path="." />
+    
+    <!-- Специализированные пути для приложения -->
+    
+    <!-- Голосовые сообщения в публичной папке -->
+    <external-path 
+        name="voice_messages" 
+        path="MonolithChat/Voice/" />
+    
+    <!-- Изображения в стандартной папке Pictures -->
+    <external-path 
+        name="images" 
+        path="Pictures/MonolithChat/" />
+    
+    <!-- Документы в стандартной папке Documents -->
+    <external-path 
+        name="documents" 
+        path="Documents/MonolithChat/" />
+    
+    <!-- Альтернативный путь для голосовых сообщений во внутреннем хранилище -->
+    <external-files-path 
+        name="app_voice_messages" 
+        path="Voice/" />
+    
+    <!-- Альтернативный путь для изображений во внутреннем хранилище -->
+    <external-files-path 
+        name="app_images" 
+        path="Images/" />
+    
+    <!-- Альтернативный путь для документов во внутреннем хранилище -->
+    <external-files-path 
+        name="app_documents" 
+        path="Documents/" />
+</paths>
